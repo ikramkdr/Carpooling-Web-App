@@ -62,7 +62,7 @@ The project requires a MySQL database named covoiturage with appropriate tables.
  You can contact me personally if you'd like to receive the database schema or a demo SQL dump for testing.
 
 
-##Author
+## Author
 This project was built collaboratively during our licence degree by:
 
 Ikram Kadri (GitHub: @ikramkdr) and colleagues
