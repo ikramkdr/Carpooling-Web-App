@@ -1,7 +1,7 @@
 # Carpooling-Web-App
 ## Covoiturage – Full Stack Carpooling Web App
 
-**COVOITURAGE** is a collaborative full-stack web application in french built during our undergraduate studies (*licence*) from the * university of Bejaia-Algeria *.  
+**COVOITURAGE** is a collaborative full-stack web application in french built during our undergraduate studies (*licence*) from the **university of Bejaia-Algeria**.  
 It allows users to manage carpooling offers, receive notifications, and interact via a simple and modern interface.
 
 ---
