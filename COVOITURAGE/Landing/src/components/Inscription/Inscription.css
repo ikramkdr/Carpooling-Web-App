@@ -1,0 +1,89 @@
+.inscription-container {
+    background-size: 150%;
+    background-position-y: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    float: left;
+    height: 140vh;
+    
+}
+.inscription-container h2{
+    margin-left: -8px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.Tou{
+    height:102vh;
+    background: url(../../assets/icic.svg) no-repeat;
+    background-size: 40%;
+    background-position: right;
+    font-family: "Space Grotesk", sans-serif;
+    width: 99%;
+    
+}
+.totale{
+    background-color:rgba(222, 247, 229, 1);
+    width:90%;
+    margin: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 90vh;
+    border-radius: 14px;
+    margin-top: 30px;
+}
+#tarikh{    
+    display: block;
+    margin-bottom: 0px;
+    font-family: "Space Grotesk", sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 400px;
+    border-radius:5px;
+    border: 1px solid rgba(69, 171, 194, 1);
+    padding: 8px;
+}
+
+
+
+.inscription-container input,.inscription-container select,.inscription-container button {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    padding: 8px;
+}
+
+.inscription-container button {
+    background-color:rgba(64, 175, 146, 0.2);
+    color: #000000;
+    width: 400px;
+    height: 43px;
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 20px;
+    border-radius:0px;
+    border: none;
+    font-weight: 700;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+.inscription-container button:hover {
+    background-color:  rgba(64, 175, 146, 1);
+}
+.inscription-container label{
+    float: left;
+    padding-left: 100px;
+    padding-top: 15px;
+    
+}
+.inscription-container {
+    width: 58%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 83vh; /* Définir une hauteur fixe pour le conteneur du formulaire */
+    overflow-y: auto; /* Permettre le défilement vertical */
+}

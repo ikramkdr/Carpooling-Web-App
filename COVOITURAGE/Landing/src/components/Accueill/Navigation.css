@@ -1,0 +1,119 @@
+#avatar-container {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+#personne {
+    margin-right: 30px;
+}
+
+#personne p {
+    margin-top: 12px;
+    font-weight: 700;
+    padding-top: 30px;
+    float: left;
+}
+
+#personne h5 {
+    font-weight: 700;
+    color: gray;
+    float: left;
+}
+
+.notif {
+    background: url(../../assets/notif.gif) no-repeat;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 10px;
+    color: transparent;
+    cursor: pointer;
+    background-position: center;
+}
+
+.notifications-container {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 210px;
+    margin-top: 15px;
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 3000;
+}
+
+.notification-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: background-color 0.3s;
+    position: relative;
+}
+
+.notification-item:hover {
+    background-color: #f0f0f0;
+}
+
+.notification-item:last-child {
+    border-bottom: none;
+}
+
+.notification-content {
+    flex: 1;
+}
+
+.notification-content p {
+    margin: 0;
+}
+
+.notification-content small {
+    display: block;
+    color: #888;
+}
+
+.notification-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.accept-btn, .reject-btn {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.accept-btn {
+    background-color: #79c28a;
+}
+
+.accept-btn:hover {
+    background-color: #218838;
+}
+
+.reject-btn {
+    background-color: #ec6876;
+}
+
+.reject-btn:hover {
+    background-color: #c82333;
+}

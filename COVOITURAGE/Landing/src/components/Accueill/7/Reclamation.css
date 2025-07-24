@@ -1,0 +1,93 @@
+.resul{
+    width: 100%;
+    margin-top: 20px;
+    border-top: 1px solid gray ;
+    height: 80px;
+    padding-top: 10px;
+}
+.resul p{
+    float: left;
+}
+.search-container input{
+    height: 25px;
+    border-radius: 1px;
+    border: 1px solid gray;
+}
+#bouttonn{
+    height: 42.5px;
+    border-radius: 1px;
+    border: none;
+    margin-left: 20px;
+    width: 100px;
+    background-color: rgba(64, 175, 146, 1);
+}
+
+#bouttonn:hover{
+color: white;
+border: 1px solid black;
+cursor: pointer;}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.modal h2{
+   margin-left: -7px;
+}
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 80%;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#SendingReclamation{
+    background-color: rgba(64, 175, 146, 1);
+    border: none;
+    height: 30px;
+    border: 1px solid rgba(64, 175, 146, 1);
+    width: 100px;
+    cursor: pointer;
+}
+#AnnulerReclamation{
+    background-color: transparent;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+color:rgba(64,175, 146,1) ;
+    border: 1px solid rgba(64,175, 146,1);
+
+}
+#SendingReclamation:hover{
+    color: white;
+}
+#AnnulerReclamation:hover{
+    background-color: rgba(64, 175, 146, 1);
+    border: none;
+    height: 30px;
+    color: white;
+    border: 1px solid rgba(64, 175, 146, 1);
+    width: 100px;
+    cursor: pointer;
+}

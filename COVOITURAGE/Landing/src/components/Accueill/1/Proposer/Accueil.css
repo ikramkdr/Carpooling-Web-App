@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+#accueil{
+    height: 100vh;
+line-height: 20px;
+accent-color: rgba(64, 175, 146, 1);
+    width: 103%;
+    
+    font-family: "Space Grotesk", sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin-left:-2%;
+}
+#headerrr{
+    height: 96px;
+    float: right;
+    width: 1040px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.SwitchMode{
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    margin-right: 10px;
+border: none;
+font-size: 14px;
+font-family: "Space Grotesk", sans-serif;
+font-weight: 900;
+background-color: rgba(64, 175, 146, 1);
+border-radius: 10px;
+float: right;
+}
+.SwitchMode:hover{
+    color: white;
+}
+.right{
+    float: right;
+    height: 100vh;
+    width: 1020px;
+}
+form{
+    float: left;
+
+}
+
+#headerrr h2{
+   float: left;
+   margin-top:50px;
+   margin-left: 20px;
+}
+#personne{
+    float: right;
+    margin-top: 20px;
+    width: 230px;
+    justify-content: space-evenly;
+}
+
+#personne h3 {
+    float: left;
+    
+}
+#personne p{
+    margin-top: -20px;
+}
+#IDcontainer{
+    width:44PX ;
+    margin-left: 10px;
+    float:left;
+    border-radius: 10%;
+    height: 44PX;
+    background-color: rgb(174, 174, 174);
+}
+#origin , #destination{
+    width: 230px;
+    border-radius: 0;
+    height: 25px;
+    color: black;
+    margin-right: 10px;
+    float: left;
+    padding-left: 40px;
+    border: 1px solid rgba(210, 230, 240, 1);
+}
+#origin{
+    font-family: "Space Grotesk", sans-serif;
+    background: url(../../../assets/loc.svg) no-repeat;
+    background-position: 10px;
+    background-size: 25px;
+}
+select{
+    height: 42px;
+    cursor: pointer;
+    font-family: "Space Grotesk", sans-serif;
+
+    border-radius: none;
+    border: 1px solid rgba(210, 230, 240, 1);}
+#destination{
+    font-family: "Space Grotesk", sans-serif;
+    background: url(../../../assets/des.svg) no-repeat;
+    background-position: 10px;
+    background-size: 25px;
+}
+input[type="radio"]{
+    margin-left: 10px;
+    cursor: pointer;
+
+    margin-right: 7px;
+    
+
+}
+label{
+    font-weight: 700;
+
+    margin-right: 5px;
+}
+input[type="date"]{
+    border-radius: 0;
+    height: 25px;
+    width: 98px;
+    margin-left: 7px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 13px;
+    color: black;
+font-weight: 600;
+padding-left: 1.5rem;
+    margin-right: 10px;
+    border: 1px solid rgba(210, 230, 240, 1);
+
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(100%);
+    
+  }
+/* Container for the number input and buttons */
+.number-input-container {
+    display: flex;
+    align-items: center;
+    float: left;
+}
+input[type="checkbox"]{
+    margin-right: 7px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Style for the input field */
+.number-input {
+    width: 50px;
+    font-weight: 600;
+    height: 30px;
+    text-align: center;
+    border:none;
+    margin-top: -3px;
+    margin-right:-10px;
+    border-radius: 4px;
+    font-size: 16px;
+   
+}
+#siege{
+    margin-left: 30px;
+}
+#place{
+    float: left;
+    
+}
+#bouton{
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    margin-top: -29px;
+border: none;
+font-size: 14px;
+font-family: "Space Grotesk", sans-serif;
+font-weight: 900;
+background-color: rgba(64, 175, 146, 1);
+border-radius: 10px;
+float: right;
+
+}
+#bouton:hover{
+    color: white;
+ 
+}
+#priix{
+    float: left;
+
+}
+
+/* Style for the buttons */
+.number-button {
+    width: 30px;
+  margin-top: -10px;
+    height: 30px;
+    border: 1px solid rgba(210, 234, 240, 1);
+    border-radius: 50%;
+    background-color: rgba(210, 234, 240, 1);
+    cursor: pointer;
+    font-size: 16px;
+    font-size: 20px;
+    display: flex;
+    color: rgba(69, 171, 194, 1);
+    justify-content: center;
+    align-items: center;
+}
+#left{
+    float: left;
+}
+
+#price{
+    height: 25px;
+    width: 105px;
+    margin-right: 12px;
+    color: black;
+   
+    font-weight: 700;
+    border: 1px solid rgba(210, 230, 240, 1);
+    border-radius:0;
+
+}
+.app{
+    width: 400px;
+    float: left;
+    background-color: darkblue;
+    margin-left: -20px;
+    margin-top: 0px;
+   
+}
+
+.number-button:hover {
+    background-color: #e0e0e0;
+}
+
+  .time-input {
+    border-radius: 0;
+    height: 40px;
+    width: 98px;
+    margin-left: 7px;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px solid rgba(210, 230, 240, 1);
+}
+.trajet-form{
+    width: 580px;
+    padding-right: 2rem;
+}
+#babySeat{
+    margin-left: 16px;
+}

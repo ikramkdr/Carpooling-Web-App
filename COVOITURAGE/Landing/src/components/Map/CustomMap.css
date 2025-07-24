@@ -1,0 +1,11 @@
+.app {
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+  .map-container {
+    height: 470px;
+    width: 100%;
+    border: 2px solid black;
+    
+  }

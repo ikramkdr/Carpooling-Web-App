@@ -1,0 +1,72 @@
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(src/assets/back.svg) no-repeat ;
+    background-size: 500px;
+    background-position-x: center;
+    background-position-y: center;
+    height: 500px;
+    width: 60%;
+    margin: auto;
+}
+p{
+    margin: auto;
+    align-self: center;
+    width: 60%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="file"]{
+    width: 400px;
+    padding: 8px;
+    border-radius: 8px;
+    border: solid 1.5px #45ABC2;
+}
+#code{
+    margin:auto;
+}
+.nono{
+    margin: auto;
+    width: 72%;
+}
+.form-group {
+    margin-bottom: 15px;
+
+}
+
+.btnRevenir{
+    
+    border: 1.5px solid #45ABC2;
+    background: none;
+    background-color: none;
+    width: 100px;
+    padding:8px;
+    border-radius: 8px;
+    margin-left: 50%;
+    float: left;
+    cursor: pointer;
+    margin-right: 1%;
+  }
+  .btnSuivre{
+    
+    background-color: #40af92;
+    border: 1.5px solid #40af92;
+    width: 100px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 0px;
+
+}
+  .button-container{
+    width: 60%;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }

@@ -1,0 +1,8 @@
+#LandingPage{
+    background: url(./src/assets/effet-background.svg) no-repeat;
+    background-color: white;
+    background-size: cover;
+    width: 101%;
+    background-attachment:scroll;
+    
+}

@@ -1,0 +1,73 @@
+.chat-window {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    scroll-behavior: smooth;
+    width: 100%; /* Utilisation de toute la largeur disponible */
+    margin-left: 0; /* Réinitialisation de la marge gauche */
+    background: url(../../../assets/backconvo.svg) no-repeat;
+    background-position: right;
+    
+}
+.chat-header {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.chat-header h3{
+  float: left;
+  margin-left: 10px;
+}
+
+.chat-header img{
+    float: left;
+    margin-left: 5px;
+    margin-top: -4px;
+  }
+
+.chat-body {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto; /* Défilement vertical */
+    max-height: 330px; /* Hauteur maximale ajustable selon vos besoins */
+}
+.chat-message {
+    padding: 10px;
+    margin-bottom: 10px;
+    max-width: 60%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.my-message {
+    background-color: rgba(69, 171, 194, 1);
+    align-self: flex-end;
+    text-align: left;
+    margin-left: auto;
+}
+
+.my-message p {
+    color: black;
+    margin: 0;
+    
+}
+
+.their-message {
+    background-color: #d9edf2;
+    text-align: left;
+    align-self: flex-start;
+}
+
+.their-message p {
+    margin: 0;
+}
+
+.message-time {
+    font-size: 0.8em;
+    color: #ac1919;
+    margin-top: 5px;
+    text-align: right;
+}

@@ -1,0 +1,38 @@
+.marque-annee, .couleur-modele {
+    display: flex;
+    justify-content: center;
+
+}
+
+#marque , #couleur{
+    width: 175px;
+    margin-right: 30px ;
+}
+
+#annee, #modele{
+    width: 175px;
+}
+
+.btnR{
+    border: 1.5px solid #45ABC2;
+    background: none;
+    background-color: none;
+    margin-left: 600px;
+    width: 100px;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 450px;
+    margin-right: 50px;
+  }
+
+   .btnE{
+    background-color: #40af92;
+    border: 1.5px solid #40af92;
+    margin-right: 420px;
+    width: 100px;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-right: 280px;
+  }

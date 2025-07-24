@@ -1,0 +1,72 @@
+.mes-trajets {
+    display: flex;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+.sideB {
+    width: 20%;
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+}
+
+.trips-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.trip-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(33.333% - 20px); /* 3 cards per row with spacing */
+    box-sizing: border-box;
+}
+.messageSend{
+    background-color: transparent;
+    border: none;
+    margin-left: 12px;
+    float: right;
+    margin-top: -20px;
+    cursor: pointer;
+   
+}
+.Liked{
+    background-color: transparent;
+    border: none;
+    margin-left: 12px;
+    float: right;
+    margin-top: -17px;
+    cursor: pointer;
+
+}
+
+#headerrTrajet{
+    height: 80px;
+    float: right;
+    width: 1040px;
+    
+    
+}
+
+
+.trip-info, .trip-details {
+    margin-bottom: 10px;
+}
+
+.trip-info p, .trip-details p {
+    margin: 5px 0;
+}
+
+
+#Titre{
+float: left;
+margin-top: 40px;
+margin-left: 80px;
+}

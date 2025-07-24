@@ -1,0 +1,185 @@
+/* Style pour les boutons */
+.gestion {
+    background-color: transparent;
+    border: none;
+    margin-right: 10px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+    color: rgba(139, 144, 154, 1);
+    cursor: pointer;
+  }
+  
+  .gestion:hover {
+    color: rgba(69, 171, 194, 1);
+    border-bottom: 2px solid rgba(69, 171, 194, 1);
+  }
+  
+  .active-button {
+    color: rgba(69, 171, 194, 1);
+    border-bottom: 2px solid rgba(69, 171, 194, 1);
+  }
+  
+  #supprimer {
+    background-color: rgba(255, 178, 178, 1);
+    border: none;
+    font-family: "Space Grotesk", sans-serif;
+    height: 32px;
+    width: 80px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgba(237, 94, 94, 1);
+  }
+  #valider{
+    background-color: rgba(236, 246, 243, 1);
+    border: none;
+    font-family: "Space Grotesk", sans-serif;
+    height: 32px;
+    width: 80px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    color: rgba(64, 175, 146, 1);
+  }
+  #valider:hover{
+    border :2px solid  rgba(64, 175, 146, 1);
+  }
+  
+  #supprimer:hover {
+    border: 2px solid rgba(237, 94, 94, 1);
+  }
+  
+  /* Style pour le tableau */
+  .scrollable-table {
+    max-height: 400px; /* Hauteur maximale pour le défilement */
+    overflow-y: auto; /* Activer le défilement vertical si nécessaire */
+  }
+  .Sup{
+    margin-top: 14px;
+    width: 30px;
+    height: 30px;
+    margin-left:20px;
+    border: none;
+    border-radius: 50%;
+    background: url(../../../../assets//trash.svg) no-repeat;
+    background-size: 70%;
+    cursor: pointer;
+    background-position: center;
+    background-color: rgba(237, 94, 94, 1);
+  }
+  .Sup:hover{
+    border: 2px solid red;
+    width: 31px;
+    height: 31px;
+  }
+  #barrecherche{
+    border-radius: 0px;
+    border: 1px solid   rgba(64, 175, 146, 1);
+    background: url(../../../../assets//searchicon.svg) no-repeat;
+    background-position-x:5px ;
+    padding-left: 50px;
+    width: 300px;
+  
+  }
+  .scrollable-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style pour l'en-tête du tableau */
+  .scrollable-table th {
+    background-color: rgba(236, 246, 243, 1);
+    color: #333;
+    font-weight: bold;
+    font-family: "Space Grotesk", sans-serif;
+    padding: 8px;
+    text-align: left;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  /* Style pour les cellules du tableau */
+  .scrollable-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style pour les lignes impaires du tableau */
+
+  /* Style pour les lignes au survol */
+  .scrollable-table tbody tr:hover {
+    background-color: rgba(236, 246, 243, 1);
+  }
+  .alert-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .alert-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .alert-message {
+    margin-bottom: 10px;
+    z-index: 1000;
+  }
+  
+  .alert-buttons {
+    text-align: center;
+  }
+  
+  .alert-buttons button {
+    margin: 0 10px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .alert-buttons button.primary {
+    background-color: rgba(64, 175, 146, 1);
+    color: #fff;
+  }
+  
+  .alert-buttons button.primary:hover {
+    background-color: #ffffff;
+    color: #007bff;
+    border: 1px solid #007bff;
+  }
+  
+  .alert-buttons button.secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  .alert-buttons button.secondary:hover {
+    border:1px solid  rgba(237, 94, 94, 1);
+    color: rgba(237, 94, 94, 1);
+    background-color: white;
+  }
+  #Resoudre{
+    background-color: rgba(236, 246, 243, 1);
+    border: none;
+    font-family: "Space Grotesk", sans-serif;
+    height: 32px;
+    width: 80px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    color: rgba(64, 175, 146, 1);
+  }
+  
+  #Resoudre:hover{
+    border: 2px solid rgba(64, 175, 146, 1);
+  }

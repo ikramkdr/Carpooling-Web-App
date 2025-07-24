@@ -1,0 +1,111 @@
+.signup-container {
+    padding-top: 40px;
+    background: url(src/assets/back.svg) no-repeat ;
+    background-position: center;
+ 
+ }
+ .form-group {
+     margin-bottom: 15px;
+ }
+ 
+ .label {
+     display: block;
+     margin-bottom: 5px;
+     font-weight: bold;
+ }
+ 
+ input[type="text"],
+ input[type="date"],#address, #wilaya, #commune {
+     width: 400px;
+     padding: 8px;
+     border-radius: 8px;
+     border: solid 1.5px #45ABC2;
+ }
+ 
+ .nom-prenom{
+     display: flex;
+     justify-content: center;
+ 
+ }
+ 
+ #prenom{
+     width: 175px;
+     margin-right: 30px ;
+ }
+ 
+ #nom{
+     width: 175px;
+ }
+ .wilaya-commune{
+     display: flex;
+     justify-content: center;
+ }
+ 
+ #wilaya{
+     width: 195px;
+     margin-right: 30px;
+ }
+ 
+ #commune{
+     width: 195px;
+ 
+ }
+ 
+ .statut{
+     margin-left: 20px;
+ }
+ 
+ .genre{
+     margin-left: -210px;
+ }
+ 
+ .form-group.statut {
+     display: flex;
+     flex-direction: column;
+     
+   }
+ 
+ .form-statut label {
+     margin-right: 30px; /* Marge à droite de chaque bouton radio */
+   }
+ 
+ .form-group.genre{
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ .form-genre label{
+     margin-right: 30px;
+ }
+ 
+   .btnRevenir{
+     
+     border: 1.5px solid #45ABC2;
+     background: none;
+     background-color: none;
+     width: 100px;
+     padding:8px;
+     border-radius: 8px;
+     margin-left: 50%;
+     float: left;
+     cursor: pointer;
+     margin-right: 1%;
+   }
+   .btnSuivre{
+     
+     background-color: #40af92;
+     border: 1.5px solid #40af92;
+     width: 100px;
+     padding: 8px;
+     cursor: pointer;
+     border-radius: 8px;
+     margin-top: 0px;
+     
+   }
+   .button-container{
+     width: 100%;
+   }
+   a{
+     text-decoration: none;
+     color: black;
+   }

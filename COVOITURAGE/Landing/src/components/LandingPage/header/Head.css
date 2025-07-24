@@ -1,0 +1,172 @@
+
+header{
+    width: 98%;
+    padding-top: 15px;
+    padding-left: 25px;
+}
+a{
+  text-decoration: none;
+}
+header h1{
+    float: left;
+  }
+.horizontal-list {
+   
+  list-style-type: none;
+  padding: 0;
+  list-style: none;
+  margin:0;
+ float: right;
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin-right: 40px; /* Espacement entre les éléments */
+  font-size: 16px;
+}
+.horizontal-list li a {
+
+text-decoration: none;
+color: black;
+}
+.horizontal-list li a:hover {
+text-decoration: none;
+color: rgba(69, 171, 194, 1);
+}
+#connecter{
+        --color:rgba(69, 171, 194, 1);
+        padding: 0.8em 1.7em;
+        background-color: transparent;
+        border-radius:14px;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        width: 140px;
+        transition: .5s;
+        margin-right: 20px;
+        font-weight: 400;
+        border: 1px solid rgba(69, 171, 194, 1);;      
+        font-family: "Space Grotesk", sans-serif;
+        color: var(--color);
+        z-index: 1;
+       }
+       
+#connecter::before, #connecter::after {
+        content: '';
+        display: block;
+        width: 50px;
+        height: 50px;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        border-radius: 50%;
+        z-index: -1;
+        background-color: var(--color);
+        transition: 1s ease;
+       }
+       
+       #connecter::before {
+        top: -1em;
+        left: -1em;
+       }
+       
+       #connecter::after {
+        left: calc(100% + 1em);
+        top: calc(100% + 1em);
+       }
+       
+       #connecter:hover::before, #connecter:hover::after {
+        height: 410px;
+        width: 410px;
+      
+       }
+       
+       #connecter:hover {
+        color: rgb(255, 255, 255);
+       
+       }
+       
+       #connecter:active {
+        filter: brightness(.8);
+       }
+       
+
+#inscrire{ --color:rgb(255, 255, 255);
+    padding: 0.8em 1.7em;
+    background-color:rgba(69, 171, 194, 1);;
+    border-radius:14px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 140px;
+    transition: .5s;
+    font-weight: 400;
+    border: 1px solid rgba(69, 171, 194, 1);;      
+    font-family: "Space Grotesk", sans-serif;
+    color: var(--color);
+    z-index: 1;
+}
+
+#loG{
+height: 60PX;
+width: 147PX;
+background: url(../../../assets/logo.svg) no-repeat;
+background-Size: 90%;
+margin-top:-5px;
+text-indent: -99999px;
+}
+#connecter{
+    --color:rgba(69, 171, 194, 1);
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius:14px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 140px;
+    transition: .5s;
+    margin-right: 20px;
+    font-weight: 400;
+    border: 1px solid rgba(69, 171, 194, 1);     
+    font-family: "Space Grotesk", sans-serif;
+    color: var(--color);
+    z-index: 1;
+   }
+   
+#inscrire::before, #inscrire::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color:rgba(217, 238, 232, 1);
+    transition: 1s ease;
+   }
+   
+   #inscrire::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   #inscrire::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   #inscrire:hover::before, #inscrire:hover::after {
+    height: 410px;
+    width: 410px;
+  
+   }
+   
+   #inscrire:hover {
+    color: rgba(69, 171, 194, 1);  
+   
+   }
+   
+   #inscrire:active {
+    filter: brightness(.8);
+   }
+   

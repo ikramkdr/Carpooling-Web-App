@@ -1,0 +1,293 @@
+
+#landing{
+    margin-top: 130px;
+    display: inherit;
+    padding-left: 25px;
+    
+  }
+  .gauche{
+    float: left;
+    width: 50%;
+    padding-top: 80px;
+    
+   
+  }
+  .gauche h3{
+    font-size: 32px;
+    width: 90%;
+  
+  }
+  .gauche p{
+    width: 110%;
+    font-size: 16px;
+    margin-top: 12px;
+  }
+  #imgee{
+    float: right;
+    height: 80VH;
+    margin-top: -20px;
+    margin-right: 20px;
+  }
+  
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#sear{
+  border: none;
+  width: max-content;
+}
+  #bar{
+    height: 79PX;
+    width: 97%;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: white;
+    border-radius: 14px;
+    display: flex;
+    position: inherit;
+    justify-content: space-evenly;
+    box-shadow:
+      inset 0 -7em 3em transparent,
+      0 0 0 2px white,
+      0.3em 0.3em 1em rgba(128, 124, 124, 0.6);
+      margin-top:-200px;
+  }
+  #bar div{
+    float: left;
+    height: 67px;
+    width: 240px;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: white;
+    border-right:1.5px solid rgba(156, 155, 155, 1);
+   
+  }
+  #bar div a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    float: left;
+    margin-right: 30%;
+   
+  }
+  #bar div p{
+    color:rgba(156, 155, 155, 1);
+    font-size: 14px;
+    float: left;
+    
+  }
+  #bar img{
+    margin-top:15px;
+    float: left;
+    margin-right: 20px;
+    
+  }
+  
+  #bar #search{
+    float: left;
+    height: 67px;
+    width: 65px;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    background: url( "../../../assets/searchicon.svg") no-repeat;
+    background-position: center;
+    color: transparent;
+    background-color: rgba(64, 175, 146, 1);
+    
+  }
+  #bar #derniere{
+    border: none;
+  }
+  #bar #search img{
+    margin-left:9px;
+    transform:scale(1.2);
+  }
+#bar #search:hover{
+   background-color: rgba(69, 171, 194, 1);
+}
+.darrk p{
+  width: 110%;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+#resultat{
+  margin-top: 90px;
+  margin-bottom: 30px;
+  margin-left: -10px;
+  
+}
+.search-results P{
+  margin-bottom: 10px;
+}
+
+.search-results button{
+  margin-bottom: 20px;
+}
+
+.search-results {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  margin-top:10px;
+  text-align: center;
+  overflow:scroll;
+  max-height: 500px;
+  padding-bottom: 20px;
+  z-index: 1200000;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  
+  background-color: rgba(255, 200, 255, 0.1);  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.reserver:hover{
+  color: black;
+  border: 1px solid black;
+}
+#avatar_container img{
+  width: 50px;
+  border: 2px solid rgba(69, 171, 194, 1);
+  border-radius: 50%;
+  height: 50px;
+  margin-left:10px ;
+  margin-right: 30px;
+}
+#avatar_container p{
+  margin-left: 69px;
+  margin-top: -50px;
+}
+.reserver{
+  float: right;
+  --color:rgb(255, 255, 255);
+  padding: 0.8em 1.7em;
+  background-color: rgba(64, 175, 146, 1); ;
+  border-radius:14px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  width: 100px;
+  transition: .5s;
+  margin-right: 16px;
+  font-weight: 400;
+  border: 1px solid rgba(69, 171, 194, 1);     
+  font-family: "Space Grotesk", sans-serif;
+  color: var(--color);
+  z-index: 1;
+  
+}
+.error-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform
+  : translateX(-50%);
+  background-color: rgba(255, 0, 0, 0.8); /* Fond rouge semi-transparent */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.result-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid rgba(69, 171, 194, 1);     
+  margin-left: 10px;
+  border-radius: 14px;
+  font-size: 15px;
+  text-align: left;
+  float: inline-start;
+  width: 30%;
+}
+.result-item img{
+  width: 20px;
+  height: 20px;
+}
+#log{
+  background: url(../../../assets/logo.svg) no-repeat;
+  height: 60px;
+  width: 200px;
+  float: left;
+  text-indent: -99999px;
+}
+#prix{
+ float: right;
+ margin-right: -110px;
+ margin-top: -40px;
+ font-size: 18px;
+}
+.result-item p{
+  float: left;
+}
+#hide{
+  float: right;
+  background-color: rgba(69, 171, 194, 1);
+  width: 40px;
+  font-size: larger;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+#hide:hover{
+  background-color:  rgb(211, 8, 8);
+}
+
+.DATEE{
+  color: #a8a5a5;
+  margin-left: 10px;
+  margin-top: 10px;
+
+  
+}
+.Origine{
+  padding-left: 80px;
+  margin-top: -28Px;
+}
+.destination{
+  padding-left: 80px;
+
+}
+.time{
+  padding-left: 10px;
+  margin-top: 15px;
+}
+.NbPlaces{
+ margin-left: 275px;
+ margin-top: -30px;
+}
+.NbPlaces img{
+  margin-right: -100px;
+ 
+}
+
+.FromTo{
+  width: 15px;
+  height: 50px;
+  margin-left: 60px;
+}
+
+.FromTo img{
+  width: 15px;
+  height: 50px;
+  margin-top: -30px;
+
+}
+hr{
+  margin-top: 25px;
+  margin-bottom: 16px;
+}
+/* Vous pouvez ajouter d'autres styles CSS selon vos besoins */

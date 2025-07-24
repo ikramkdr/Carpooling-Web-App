@@ -1,0 +1,11 @@
+.app {
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  
+  .mapp-containe {
+    height: 310px;
+    width: 100%;
+    border: 2px solid black;
+    
+  }

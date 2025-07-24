@@ -1,0 +1,70 @@
+#headerrPayement{
+    height: 80px;
+    float: right;
+    width: 1040px;
+ 
+}
+#Si{
+  width: 20%;
+ margin-left: -25px;
+}
+#Payement{
+    display: flex;
+}
+#Nom-titulaire-de-la-carte{
+margin-bottom: 20px;
+border-radius: 2px;
+font-family: "Space Grotesk", sans-serif;
+
+height: 20px;
+width: 395px;
+border: 1px solid gray;
+margin-top: 5px;
+}
+#Numero-de-la-carte{
+    margin-bottom: 20px;
+    border-radius: 2px;
+    height: 20px;
+    width: 395px;
+    font-family: "Space Grotesk", sans-serif;
+
+    border: 1px solid gray; 
+    margin-top: 5px;
+}
+#DateE,#CVC2{
+    margin-bottom: 20px;
+    border-radius: 2px;
+    height: 20px;
+    border: 1px solid gray; 
+    margin-top: 5px;
+    width: 185px;font-family: "Space Grotesk", sans-serif;
+
+    float: left;
+    margin-right: 3.5px;
+
+}
+.Colled{
+    margin-top: -20px;
+    font-family: "Space Grotesk", sans-serif;
+
+    
+}
+.ButtonPayer{
+    width: 99%;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    font-family: "Space Grotesk", sans-serif;
+
+    color: white;
+    font-weight: 600;
+    background-color: rgba(64, 175, 146, 1); ;
+}
+.Card-info{
+    height: 80vh;
+    width: 50%;
+
+    margin-top: -17px;
+    padding-top: 20px;
+    border-right: 1px solid rgb(152, 150, 150);
+}

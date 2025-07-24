@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(../../../assets/BACKGROUNDTYPE.svg) no-repeat ;
+    background-position: bottom;
+    text-align: center;
+    background-size: contain;
+    margin-top: 50px;
+}
+
+.logo {
+    width: 100px; /* Largeur du logo */
+    position: absolute; /* Position absolue pour le placer en haut à gauche */
+    top: 20px; /* Distance depuis le haut */
+    left: 20px; /* Distance depuis la gauche */
+    z-index: 100; /* Indice de profondeur pour placer le logo au-dessus du contenu */
+}
+
+.Conducteur, .Passager {
+    width: 220px; /* Largeur de 220px */
+    height: 200px; /* Hauteur de 200px */
+    padding: 20px; /* Ajouter du padding pour l'espace interne */
+    border: 1px solid #F2F2F2;
+    background-color: #FFFFFF;
+    box-shadow: 2px 3px 20px #aaa8a8;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 40px;
+    cursor: pointer; /* Curseur de la souris en forme de main */
+    transition: transform 0.2s ease; /* Transition pour l'effet de survol */
+}
+
+
+.Conducteur {
+    display: inline-block; /* Afficher en ligne */
+    margin-right: 20px; /* Ajouter un espacement entre les div */
+}
+
+.Passager {
+    display: inline-block; /* Afficher en ligne */
+}
+
+.Conducteur:hover, .Passager:hover {
+    transform: translateY(-5px); /* Déplacer légèrement vers le haut au survol */
+}
+
+.Conducteur:active, .Passager:active {
+    transform: translateY(2px); /* Déplacer vers le bas au clic */
+    color: #000000;
+}
+span{
+    color: #45ABC2;
+}
+p{
+    color: #757575;
+}
+
+h3{
+    align-self: center;
+}
