@@ -6,7 +6,7 @@ It allows users to manage carpooling offers, receive notifications, and interact
 
 ---
 
-##  Technologies Used
+##  Technologies Used 
 
 ###  Frontend (React + Vite + TypeScript)
 -  React for the UI
